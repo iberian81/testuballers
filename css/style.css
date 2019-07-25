@@ -1,0 +1,73 @@
+  body {
+            width: 500px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            position: relative;
+            left: 200px;
+            top:50px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #form1 {
+            display: flex;
+            background-color: darkcyan;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        #form1 button {
+            height: 25px;
+            top: 15px;
+            position: relative;
+        }
+
+        a {
+            font-size: .8em;
+        }
+
+        .input1 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+        }
+
+        .input2 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+        }
+
+        #form2 {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .radio {
+            display: flex;
+        }
+
+        .date {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .conditions{
+            font-size: .8em;
+        }
+
+        #form2 button {
+            width: 30%;
+            height: 30px;
+            background-color:limegreen;
+            color:white;
+        }
+      
